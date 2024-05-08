@@ -141,7 +141,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <executable>false</executable>
-                    <mainClass>cn.com.wa.trade.TradeApplication</mainClass>
+                    <mainClass>com.relly.account.service.TradeApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
