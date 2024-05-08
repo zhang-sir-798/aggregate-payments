@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.17</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.relly</groupId>
+    <artifactId>trade-service</artifactId>
+    <version>1.0.0</version>
+    <name>trade-service</name>
+    <description>trade-service</description>
+    <properties>
+        <java.version>8</java.version>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <base-core.version>1.0.0-SNAPSHOT</base-core.version>
+    </properties>
+    <dependencies>
+        <!-- base-core begin -->
+        <dependency>
+            <groupId>cn.com.framework</groupId>
+            <artifactId>base-core-tool</artifactId>
+            <version>${base-core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.com.framework</groupId>
+            <artifactId>base-core-dto</artifactId>
+            <version>${base-core.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- end -->
+
+    </dependencies>
+
+
+</project>
